@@ -2,7 +2,90 @@
 
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+a {
+
+	text-decoration: none;
+
+}
+
+.app-nav {
+
+	position: fixed;
+	height: 50px;
+	background-color: RGBA(60, 118, 224, 1);
+
+}
+
+.home-logo {
+
+	height: 100%;
+	width: 10%;
+	float: left;
+
+}
+
+.home-logo h4,
+.nav-col {
+
+    text-align: center;
+    height: 100%;
+    line-height: 50px;
+
+}
+
+.home-logo a,
+.nav-col a {
+
+	display: inline-block;
+	color: white;
+	width: 100%;
+
+}
+
+.nav-columns {
+
+    height: 100%;
+    float: right;
+    width: 35%;
+    display: inline;
+
+}
+
+ /*-- fluid width and larger display width -- */
+ .grid-container {
+
+        width : 100%;
+        max-width : 100%; 
+        
+}
+
+/*-- clearfix hack to contain rows -- */ 
+.row:before, 
+.row:after {
+
+    content:"";
+    display: table ;
+     clear:both;
+     
+}
+
+/*-- selects all col- class and gives float left --*/
+[class*='col-'] {
+  float: left;
+}
+
+/*-- sets width for three columns --*/
+.col-1-3,
+.col-2-3,
+.col-3-3 {
+
+	min-height: 1px;
+	height: 100%;
+	width: 33.33%;
 
 }
 
@@ -15,6 +98,53 @@
 .mission-section,
 .how-to-section {
 
-	height: 400px;
+	height: 450px;
 
 }
+
+.app-name {
+
+	text-align: center;
+	padding-top: 15%;
+
+}
+
+.name-and-title {
+
+    width: 45%;
+    margin: auto;
+    padding: 1%;
+    border: 10px solid black;
+
+}
+
+.name-and-title h1 {
+
+	font-size: 6em;
+
+}
+
+.name-and-title p {
+
+    font-size: 1.5em;
+
+}
+
+.mission-section {
+
+	background-color: RGBA(39, 40, 33, 1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
