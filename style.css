@@ -55,6 +55,12 @@ a {
 
 }
 
+.nav-hover:hover {
+
+	background-color: RGBA(39, 149, 191, 1);
+
+}
+
  /*-- fluid width and larger display width -- */
  .grid-container {
 
@@ -136,6 +142,32 @@ a {
 
 }
 
+.mission-statement {
+
+    padding-top: 10%;
+    width: 75%;
+    margin: auto;
+    color: white;
+
+}
+
+.mission-statement h1 {
+
+	margin: auto;
+    margin-bottom: 3%;
+    font-size: 3em;
+    text-align: center;
+    border-bottom: 5px solid white;
+    width: 600px;
+
+}
+
+.mission-statement p {
+
+	font-size: 1.25em;
+	letter-spacing: 2px;
+
+}
 
 
 
